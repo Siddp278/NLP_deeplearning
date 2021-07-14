@@ -1,6 +1,6 @@
 # import the necessary packages
 # run -> python photo_translation2.py --image Images/jap_banner.png --lang jpn
-# for simple words written, it handles the job well but if the background has image it isn't able to handle the job.
+# for simple words written, it handles the job well but if the background is not plain it isn't able to handle the job.
 # if the image has deformed or graffiti like words it isn't able to handle processing well.
 from textblob import TextBlob
 import textblob.exceptions
